@@ -1,0 +1,8 @@
+Tic Tac Toe Board v3.0!
+
+Welcome to my all new Tic Tac Toe Game! I hope you enjoy my take on this timeless classic; equip with both Single and Multiplayer modes!
+For the moment, the CPU should be EASILY defeatable. I'm working on making it harder :) 
+Till then, if you ever feel the need to play a quick game with a friend, why not try multiplayer out? 
+
+To start, all you need to do is doubleclick on the index.html file included and that should take you to the home page.
+

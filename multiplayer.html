@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe: Multi Player</title>
+    <link rel="stylesheet" href="styles/gamestyles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="startBox">
+      <header>Tic Tac Toe</header>
+      <div class="content">
+        <div class="title">Press Start to Begin</div>
+        <div class="pressButton">
+          <button class="start">Begin</button>
+        </div>
+      </div>
+    </div>
+    <header>
+      <nav>
+        <!--Nav bar with links to all three pages. I had to put the timer up here in the nav bar because it pushed my buttons down if I put it in any other place-->
+        <a href="single-player.html">Single Player</a>
+        <a href="index.html">Tic Tac Toe</a>
+        <a href="multiplayer.html">Multiplayer</a>
+      </nav>
+    </header>
+
+    <!-- selection box -->
+    <div class="choice">
+      <header>MultiPlayer</header>
+      <div class="content">
+        <div class="title">What will you be?</div>
+        <div class="options">
+          <button class="playerX">Player X</button>
+          <button class="playerO">Player O</button>
+        </div>
+      </div>
+    </div>
+    <!-- playboard section -->
+    <div class="game">
+      <div class="details">
+        <div class="players">
+          <span class="Xturn">X's Turn</span>
+          <span class="Oturn">O's Turn</span>
+          <div class="slider"></div>
+        </div>
+      </div>
+      <div class="board">
+        <section>
+          <span class="box1"></span>
+          <span class="box2"></span>
+          <span class="box3"></span>
+        </section>
+        <section>
+          <span class="box4"></span>
+          <span class="box5"></span>
+          <span class="box6"></span>
+        </section>
+        <section>
+          <span class="box7"></span>
+          <span class="box8"></span>
+          <span class="box9"></span>
+        </section>
+        <div class=bottomRow><div id="timer">Time Elapsed: 0:00:00</div><div class="button"><button id ="reset">Restart</button></div>
+        </div>
+      </div>
+    </div>
+    <!-- result box -->
+    <div class="results">
+      <div class="win"></div>
+      <div class="button"><button>Replay</button></div>
+    </div>
+    
+
+    <footer>
+      copyright: the lollypop guild of Uz! contact us in a land of pure
+      imagination
+    </footer>
+    <script src="scripts/multiplayer.js"></script>
+  </body>
+</html>

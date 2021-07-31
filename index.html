@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="styles/gamestyles.css" />
+  </head>
+  <body>
+    <header>
+      <!--separate class just for this page to help me center the text-->
+      <div id="title">
+      <nav>
+        <a href="index.html">Tic Tac Toe</a>
+      </nav>
+    </div>
+    </header>
+    <!--separate class to handle moving the images-->
+    <div class="moveoptions">
+      <div class="firstgame">
+        <!--referencing image and text with hyperlink for single player tic tac toe. the idea was that cats are stereotypically solitary creatures...therefore they'd be better suited for a solo experience(i.e., single player)-->
+        <a href="single-player.html">
+          <img
+            src="imgs/single.jpg"
+            width="500"
+            height="500"
+            alt="Single-Player"
+        /></a>
+        <div id="Single">Single Player</div>
+      </div>
+      <div class="secondgame">
+        <!--referencing image and text with hyperlink for multiplayer tic tac toe. the logic here are that dogs are typically more people oriented creatures...therefore better suited for an experience that involves multiple people(i.e., multiplayer)-->
+        <a href="multiplayer.html">
+          <img src="imgs/multi.jpg" width="500" height="500" alt="Multiplayer"
+        /></a>
+        <div id="Multi">Multiplayer</div>
+      </div>
+    </div>
+    <!--kickass theme music. I don't know if I want or should put them on the actual game pages yet..-->
+    <iframe
+      width="100%"
+      height="200"
+      scrolling="no"
+      frameborder="no"
+      allow="autoplay"
+      src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/58585830&color=%234e4641&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"
+    ></iframe>
+    <div
+      style="
+        font-size: 10px;
+        color: #cccccc;
+        line-break: anywhere;
+        word-break: normal;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        font-family: Interstate, Lucida Grande, Lucida Sans Unicode, Lucida Sans,
+          Garuda, Verdana, Tahoma, sans-serif;
+        font-weight: 100;
+      "
+    >
+      <a
+        href="https://soundcloud.com/kaseythompson"
+        title="Mr. Straightface"
+        target="_blank"
+        style="color: #cccccc; text-decoration: none"
+        >Mr. Straightface</a
+      >
+      ·
+      <a
+        href="https://soundcloud.com/kaseythompson/guiles-theme-original-mix"
+        title="Guile&#x27;s Theme (Dubstep Remix)"
+        target="_blank"
+        style="color: #cccccc; text-decoration: none"
+        >Guile&#x27;s Theme (Dubstep Remix)</a
+      >
+    </div>
+    <footer>
+      <p>
+        copyright: the lollypop guild of Uz! contact us in a land of pure
+        imagination
+      </p>
+    </footer>
+  </body>
+</html>
